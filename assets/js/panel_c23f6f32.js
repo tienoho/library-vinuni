@@ -11152,16 +11152,7 @@ All rights reserved.
                                                 },
                                                     a.a.createElement("div", { className: "banner-img-item" },
                                                         a.a.createElement("div", { className: "utk-panel-underlay--fade-horz", 'style':{backgroundImage: "url(https://vinuni.edu.vn/wp-content/uploads/2020/06/DSC01235-scaled-e1591329951914.jpg)"}}
-                                                    ) ),
-                                                    a.a.createElement("div", { className: "banner-img-item" },
-                                                        a.a.createElement("div", { className: "utk-panel-underlay--fade-horz", 'style':{backgroundImage: "url(https://vinuni.edu.vn/wp-content/uploads/2020/06/pexels-photo-3183150-scaled.jpg)"}}
-                                                    ) ),
-                                                    a.a.createElement("div", { className: "banner-img-item" },
-                                                        a.a.createElement("div", { className: "utk-panel-underlay--fade-horz", 'style':{backgroundImage: "url(https://vinuni.edu.vn/wp-content/uploads/2020/05/Banner-ngang-c-Mai-Lan.jpg)"}}
-                                                    ) ),
-                                                    a.a.createElement("div", { className: "banner-img-item" },
-                                                        a.a.createElement("div", { className: "utk-panel-underlay--fade-horz", 'style':{backgroundImage: "url(https://vinuni.edu.vn/wp-content/uploads/2020/07/Rohit-Verma-banner.jpg)"}}
-                                                    ) ),
+                                                    ) )
                                                 ),
                                             a.a.createElement("div", { className: "utk-panel-underlay--fade-vert" })
                                         ),
