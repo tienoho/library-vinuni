@@ -16812,7 +16812,7 @@
                                 key: "fetchLocationSpaces",
                                 value: function () {
                                     var e = this,
-                                        t = pe.URL + "/assets/json/hodges.json";
+                                        t = "https://tienoho.github.io/library-vinuni/assets/json/hodges.json";
                                     // t = t + this.props.location + "/2";
                                     var a = "utk_lib_spaces_" + this.props.location;
                                     if (null === sessionStorage.getItem(a))
@@ -17183,7 +17183,7 @@
                                         });
                                         var s = r.replace("-", "");
                                         if (((s = parseInt(s.replace("-", ""))), !0 === Number.isInteger(s))) {
-                                            var i = pe.URL + "/assets/json/hours-short.json",
+                                            var i = "https://tienoho.github.io/library-vinuni/assets/json/hours-short.json",
                                                 u = "utk_lib_week_hours_" + e + "_" + s;
                                             if (null === sessionStorage.getItem(u))
                                                 fetch(i, { headers: { "Content-Type": "application/json", Accept: "application/json" } })
@@ -17215,7 +17215,7 @@
                                         });
                                         var s = r.replace("-", "");
                                         s = parseInt(s.replace("-", ""));
-                                        var i = pe.URL + "/assets/json/hours-short.json";
+                                        var i = "https://tienoho.github.io/library-vinuni/assets/json/hours-short.json";
                                         return (
                                             !0 === Number.isInteger(s) &&
                                                 fetch(i, { headers: { "Content-Type": "application/json", Accept: "application/json" } })
@@ -17342,7 +17342,7 @@
                                 value: function () {
                                     var e = this;
                                     return (
-                                        fetch(pe.URL + "/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                        fetch("https://tienoho.github.io/library-vinuni/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                             .then(function (e) {
                                                 return e.json();
                                             })
@@ -17444,7 +17444,7 @@
                                     value: function () {
                                         var e = this;
                                         return (
-                                            fetch(pe.URL + "/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                            fetch("https://tienoho.github.io/library-vinuni/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                                 .then(function (e) {
                                                     return e.json();
                                                 })
@@ -17646,7 +17646,7 @@
                                             this.getParameterByName("help") && this.setState({ activeHelp: 1 }),
                                             null === sessionStorage.getItem("utk_lib_header_menu"))
                                         )
-                                            fetch(pe.URL + "/assets/json/head.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                            fetch("https://tienoho.github.io/library-vinuni/assets/json/head.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                                 .then(function (e) {
                                                     return e.json();
                                                 })
@@ -18186,7 +18186,7 @@
                                     value: function () {
                                         var e = this;
                                         return (
-                                            fetch(pe.URL + "/assets/json/new.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                            fetch("https://tienoho.github.io/library-vinuni/assets/json/new.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                                 .then(function (e) {
                                                     return e.json();
                                                 })
@@ -18944,7 +18944,7 @@
                                     value: function () {
                                         var e = this;
                                         if (null === sessionStorage.getItem("utk_lib_header_menu"))
-                                            fetch(pe.URL + "/assets/json/head.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                            fetch("https://tienoho.github.io/library-vinuni/assets/json/head.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                                 .then(function (e) {
                                                     return e.json();
                                                 })
@@ -19189,7 +19189,7 @@
                                     value: function () {
                                         var e = this;
                                         return (
-                                            fetch(pe.URL + "/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
+                                            fetch("https://tienoho.github.io/library-vinuni/assets/json/hours.json", { headers: { "Content-Type": "application/json", Accept: "application/json" } })
                                                 .then(function (e) {
                                                     return e.json();
                                                 })
@@ -19319,7 +19319,7 @@
                                         var a = this,
                                             n = t.replace("-", "");
                                         if (((n = parseInt(n.replace("-", ""))), !0 === Number.isInteger(n))) {
-                                            var r = pe.URL + "/assets/json/hours-short.json",
+                                            var r = "https://tienoho.github.io/library-vinuni/assets/json/hours-short.json",
                                                 o = "utk_lib_day_hours_" + e + "_" + n;
                                             if (null === sessionStorage.getItem(o))
                                                 fetch(r, { headers: { "Content-Type": "application/json", Accept: "application/json" } })
