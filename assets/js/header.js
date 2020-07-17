@@ -17723,20 +17723,17 @@
                                                                         r.a.createElement(
                                                                             "a",
                                                                             { href: "#contingency", className: "utk-menu-help--item utk-menu-help--contingency" },
-                                                                            r.a.createElement("h4", null, "My Account"),
-                                                                            r.a.createElement("div", { className: "utk-menu-help--item--icon" }, r.a.createElement("span", { className: "icon-info-circled" }))
+                                                                            r.a.createElement("h4", null, "My Account")
                                                                         ),
 																		r.a.createElement(
                                                                             "a",
                                                                             { href: "#contingency", className: "utk-menu-help--item utk-menu-help--contingency" },
-                                                                            r.a.createElement("h4", null, "Room booking"),
-                                                                            r.a.createElement("div", { className: "utk-menu-help--item--icon" }, r.a.createElement("span", { className: "icon-info-circled" }))
+                                                                            r.a.createElement("h4", null, "Room booking")
                                                                         ),
 																		r.a.createElement(
                                                                             "a",
                                                                             { href: "#contingency", className: "utk-menu-help--item utk-menu-help--contingency" },
-                                                                            r.a.createElement("h4", null, "Today library hours"),
-                                                                            r.a.createElement("div", { className: "utk-menu-help--item--icon" }, r.a.createElement("span", { className: "icon-info-circled" }))
+                                                                            r.a.createElement("h4", null, "Today library hours")
                                                                         )
                                                                     )
                                                                 )
