@@ -10485,33 +10485,7 @@ All rights reserved.
                                 key: "render",
                                 value: function () {
                                     var e = this;
-                                    return a.a.createElement(
-                                        "div",
-                                        { className: "utk-panel--research-tools" },
-                                        a.a.createElement(
-                                            "div",
-                                            { className: "utk-research-tools" },
-                                            a.a.createElement("h3", null, "Research Tools"),
-                                            a.a.createElement(
-                                                Ur,
-                                                { text: this.dropdownText(this.props.activeSubject), icon: "icon-down-open", floating: !0, labeled: !0, button: !0, className: "icon", onChange: this.applyFilter },
-                                                a.a.createElement(
-                                                    Ur.Menu,
-                                                    null,
-                                                    a.a.createElement(dn, { className: "search", placeholder: "Filter by Subject Name", onFocus: this.onInputFocus, onClick: this.onInputFocus }),
-                                                    a.a.createElement(
-                                                        Ur.Menu,
-                                                        { scrolling: !0 },
-                                                        this.state.availableOptions.map(function (t) {
-                                                            return a.a.createElement(Ur.Item, { key: t.id, value: t.id, text: t.title, onClick: e.selectSubject.bind(t) });
-                                                        })
-                                                    )
-                                                )
-                                            ),
-                                            this.backButton(this.props.activeSubject),
-                                            a.a.createElement(Yn, { current: this.props.activeSubject, updateSubject: this.updateSubject })
-                                        )
-                                    );
+                                    return a.a.createElement("div",null);
                                 },
                             },
                         ]) &&
