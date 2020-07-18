@@ -18485,13 +18485,13 @@
                                                                         r.a.createElement("img",{src:"assets/img/community_logo_long.png",class:"utk-logo utk-logo-primary"}),
                                                                         r.a.createElement("img",{src:"assets/img/icon-vinuni.png",class:"utk-logo utk-logo-square"}),
                                                                     ),
-                                                                    r.a.createElement("a", { href: "#", className: "utk-logo-unit" }, r.a.createElement("span", null, "VinUniversity "), "Libraries")
+                                                                    r.a.createElement("a", { href: "#", className: "utk-logo-unit" }, r.a.createElement("span", null, "VinUniversity "), "Library")
                                                                 )
                                                             ),
                                                             r.a.createElement(
                                                                 "div",
                                                                 { className: "utk-header-actions" },
-                                                                r.a.createElement("div", { className: "utk-header-actions--item utk-header-actions--home" }, r.a.createElement("a", { href: "#" }, "Libraries Home")),
+                                                                r.a.createElement("div", { className: "utk-header-actions--item utk-header-actions--home" }, r.a.createElement("a", { href: "#" }, "Library Home")),
                                                                 this.renderSearchButton(pe),
                                                                 r.a.createElement(
                                                                     "div",
