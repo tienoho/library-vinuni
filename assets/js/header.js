@@ -17754,7 +17754,7 @@
                                                                         { className: "utk-resources-menu--row utk-resources-menu--row-wrap" },
                                                                         r.a.createElement(ae, { title: "More from Libraries", items: i.help, className: "utk-resources-menu--help" }),
                                                                         r.a.createElement(ae, { title: "Help", items: i.services_speciality, className: "utk-resources-menu--services-speciality" }),
-                                                                        r.a.createElement(ae, { title: "About VinUniversity Libraries", items: i.about, media: ot.a, className: "utk-resources-menu--about" })
+                                                                        r.a.createElement(ae, { title: "About VinUniversity Library", items: i.about, media: ot.a, className: "utk-resources-menu--about" })
                                                                     )
                                                                 ),
                                                                 r.a.createElement("div", { className: "utk-resources-contact" }, r.a.createElement(nt, { layout: this.setLayout(), expanded: this.props.expanded }))
@@ -18614,7 +18614,7 @@
                                                         r.a.createElement(
                                                             "div",
                                                             { className: "footer-libraries--identity--brand" },
-                                                            r.a.createElement("a", { href: "/", className: "footer-libraries--identity--brand--unit" }, "VinUniversity Libraries")
+                                                            r.a.createElement("a", { href: "/", className: "footer-libraries--identity--brand--unit" }, "VinUniversity Library")
                                                         ),
                                                         r.a.createElement(
                                                             "p",
