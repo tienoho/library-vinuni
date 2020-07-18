@@ -17752,7 +17752,7 @@
                                                                     r.a.createElement(
                                                                         "div",
                                                                         { className: "utk-resources-menu--row utk-resources-menu--row-wrap" },
-                                                                        r.a.createElement(ae, { title: "More from Libraries", items: i.help, className: "utk-resources-menu--help" }),
+                                                                        r.a.createElement(ae, { title: "More from Library", items: i.help, className: "utk-resources-menu--help" }),
                                                                         r.a.createElement(ae, { title: "Help", items: i.services_speciality, className: "utk-resources-menu--services-speciality" }),
                                                                         r.a.createElement(ae, { title: "About VinUniversity Library", items: i.about, media: ot.a, className: "utk-resources-menu--about" })
                                                                     )
@@ -17976,7 +17976,7 @@
                                         ("click" === e.type || ("keydown" === e.type && 13 === e.keyCode)) &&
                                             (e.stopPropagation(),
                                             "onesearch" === this.state.searchOption
-                                                ? this.setState({ searchOption: "libraries" }, function () {
+                                                ? this.setState({ searchOption: "Library" }, function () {
                                                       t.setState({ searchPlaceholder: Yt }), t.setState({ searchLabel: "search libraries website" }), t.utkSearchField.focus();
                                                   })
                                                 : this.setState({ searchOption: "onesearch" }, function () {
@@ -17995,11 +17995,11 @@
                                     },
                                 },
                                 {
-                                    key: "setSearchOptionLibraries",
+                                    key: "setSearchOptionLibrary",
                                     value: function (e) {
                                         var t = this;
                                         e.stopPropagation(),
-                                            this.setState({ searchOption: "libraries" }, function () {
+                                            this.setState({ searchOption: "Library" }, function () {
                                                 t.setState({ searchPlaceholder: Yt }), t.setState({ searchLabel: "search libraries website" }), t.utkSearchField.focus();
                                             });
                                     },
@@ -18066,7 +18066,7 @@
                                                         ),
                                                         r.a.createElement(
                                                             "label",
-                                                            { id: "utk-search-toggle-libraries", onClick: this.setSearchOptionLibraries },
+                                                            { id: "utk-search-toggle-Library", onClick: this.setSearchOptionLibraries },
                                                             r.a.createElement("span", { className: "sr-only" }, "Search our website for services and more"),
                                                             r.a.createElement("span", null, "Website")
                                                         )
@@ -18127,9 +18127,9 @@
                 }
                 "undefined" != typeof __REACT_HOT_LOADER__ &&
                     (__REACT_HOT_LOADER__.register(Lt, "labelOnesearch", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
-                    __REACT_HOT_LOADER__.register("search libraries website", "labelUTLibraries", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
+                    __REACT_HOT_LOADER__.register("search libraries website", "labelUTLibrary", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
                     __REACT_HOT_LOADER__.register(wt, "placeholderOnesearch", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
-                    __REACT_HOT_LOADER__.register(Yt, "placeholderUTLibraries", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
+                    __REACT_HOT_LOADER__.register(Yt, "placeholderUTLibrary", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"),
                     __REACT_HOT_LOADER__.register(Dt, "Search", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/Search.js"));
                 var Ht = a(289).AllHtmlEntities,
                     xt = new Ht(),
@@ -18485,7 +18485,7 @@
                                                                         r.a.createElement("img",{src:"assets/img/community_logo_long.png",class:"utk-logo utk-logo-primary"}),
                                                                         r.a.createElement("img",{src:"assets/img/icon-vinuni.png",class:"utk-logo utk-logo-square"}),
                                                                     ),
-                                                                    r.a.createElement("a", { href: "#", className: "utk-logo-unit" }, r.a.createElement("span", null, "VinUniversity "), "Libraries")
+                                                                    r.a.createElement("a", { href: "#", className: "utk-logo-unit" }, r.a.createElement("span", null, "VinUniversity "), "Library")
                                                                 )
                                                             ),
                                                             r.a.createElement(
@@ -18598,7 +18598,7 @@
                                         });
                                     return r.a.createElement(
                                         "section",
-                                        { className: "utk-footer footer-libraries" },
+                                        { className: "utk-footer footer-Library" },
                                         r.a.createElement(
                                             "div",
                                             { className: "container" },
@@ -18614,7 +18614,7 @@
                                                         r.a.createElement(
                                                             "div",
                                                             { className: "footer-libraries--identity--brand" },
-                                                            r.a.createElement("a", { href: "/", className: "footer-libraries--identity--brand--unit" }, "VinUniversity Libraries")
+                                                            r.a.createElement("a", { href: "/", className: "footer-libraries--identity--brand--unit" }, "VinUniversity Library")
                                                         ),
                                                         r.a.createElement(
                                                             "p",
@@ -18672,7 +18672,7 @@
                             return (e.__proto__ = t), e;
                         })(e, t);
                 }
-                "undefined" != typeof __REACT_HOT_LOADER__ && __REACT_HOT_LOADER__.register(Kt, "FooterLibraries", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/FooterLibraries.js");
+                "undefined" != typeof __REACT_HOT_LOADER__ && __REACT_HOT_LOADER__.register(Kt, "FooterLibrary", "/Users/mat/Sites/dev/react/utk_lib_header/src/components/FooterLibraries.js");
                 var ea = (function (e) {
                     function t(e) {
                         var a, n, r, o;
