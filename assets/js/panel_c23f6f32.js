@@ -10193,7 +10193,7 @@ All rights reserved.
                                             {
                                                 menuItem: "Our Website",
                                                 render: function () {
-                                                    return a.a.createElement(In, { selection: "Library", placeholder: "Search our website for services and more..." });
+                                                    return a.a.createElement(In, { selection: "libraries", placeholder: "Search our website for services and more..." });
                                                 },
                                             },
                                         ];
